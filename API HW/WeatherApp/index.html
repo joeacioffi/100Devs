@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Current Temperature</title>
+</head>
+<body>
+    <h1>Current Temperature</h1>
+    <form onsubmit="getTemperature(event)">
+        <label for="cityName">Enter your city name:</label>
+        <input type="text" id="cityName" name="cityName" required>
+        <button type="submit">Get Temperature</button>
+    </form>
+    <br>
+    <div id="temperatureDisplay"></div>
+    <script src="temperature.js"></script>
+</body>
+</html>
